@@ -1,0 +1,24 @@
+{
+  "name": "did-web",
+  "version": "1.0.0",
+  "description": "its a repo for me to serve a testing did for Gaia-X OID4VC testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamazhen/did-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yamazhen/did-web/issues"
+  },
+  "homepage": "https://github.com/yamazhen/did-web#readme",
+  "dependencies": {
+    "jose": "^6.2.2"
+  }
+}

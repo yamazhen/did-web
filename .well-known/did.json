@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/jwk/v1"
+    ],
+    "id": "did:web:zhen.software",
+    "verificationMethod": [
+        {
+            "id": "did:web:zhen.software#X509-JWK",
+            "type": "JsonWebKey",
+            "controller": "did:web:zhen.software",
+            "publicKeyJwk": {
+                "kty": "RSA",
+                "n": "vialNn13xeRXu50Sn3xUz7_c2Nu9fODTwZT2RlxPn6-tSulbGzs3liLv2ZUt7f6LvtQYgLMS66UiO1ORc6J35CDu6F0ORTVTMXOPNq24paeJWMVOR_wvA78T4ta68JjHiBdGWBUEqsMlJ7eWynIVTbdgomKzYIOy1IftKhk743OAgmspW-uwrIeVk5WmeSaYFbOnEu6XLzVIPBfUjSEc_oTBjXB7ckTDvBpwujxCUxhjehpNmjrlpJ2MfIHE5TTXEX5PPQIWME4sQsyiHoGhHioDlpbrtoA-p3ApYtfY2LmLyJlQBnT1IhHR-lZGkd9pAkqxQUEEQIZcopyx9l-nA6FcF5SiK6REYdNmiATg-7HmNxKssFHaCYyW3C1oeAOeeKPVz4Kc0e4w8rXLZJQoZCMfw2fI5UiR6q6h0vN448CuyMyLaVzMRYuqwTUnFe75GODwiDKf5nCtH8rs9ig7BsHZJ_sCu1YQkWe1lfEUCODki6xqf-B05-VLibZrmv28XRMID87DrTvdy-FslYp4GCFopBWAfCvLUukLTrvAwV_npvM4jOvurQHlnOqckDyZzbT3ILu30wXUIzigmJp_lEy3enmiWLGeg9aA6bY9eJzojWsIIYNXfx-9uRpSN3Y92dl3tUCRrWn3t6v4t8z2uNiVIk6EICaNj7wQZ87its0",
+                "e": "AQAB",
+                "alg": "PS256",
+                "kid": "X509-JWK",
+                "x5u": "https://zhen.software/.well-known/x509CertificateChain.pem"
+            }
+        }
+    ],
+    "assertionMethod": [
+        "did:web:zhen.software#X509-JWK"
+    ]
+}

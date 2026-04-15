@@ -1,0 +1,5 @@
+privkey.pem
+cert.pem
+private-jwk.json
+
+node_modules
