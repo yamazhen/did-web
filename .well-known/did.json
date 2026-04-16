@@ -7,7 +7,7 @@
     "verificationMethod": [
         {
             "id": "did:web:zhen.software#X509-JWK",
-            "type": "JsonWebKey",
+            "type": "JsonWebKey2020",
             "controller": "did:web:zhen.software",
             "publicKeyJwk": {
                 "kty": "RSA",
